@@ -1,0 +1,79 @@
+https://book.getfoundry.sh/tutorials/best-practices
+
+test_Description()
+test_RevertWhen_Condition()
+
+testFork_Description()
+testFork_RevertWhen_Condition()
+
+testFuzz_Description()
+testFuzz_RevertWhen_Condition()
+
+testForkFuzz_Description()
+testForkFuzz_RevertWhen_Condition()
+
+// EIP-6093: Custom errors for commonly-used tokens 
+// https://eips.ethereum.org/EIPS/eip-6093
+
+If you're making multiple `balanceOf` queries in your fork tests, consider using the recently introduced `getTokenBalances` util in Forge Std to lower your RPC bill.
+
+forge-std v1.3.0 released 🥳
+
+- `InvariantTest` helper contract
+- Multicall3 address, interface, and `getTokenBalances` helper method
+- StdChains provides access to chain alias
+- New parseJson cheats and an `assumePayable` cheat
+- New decimal assertions
+
+// 
+// https://github.com/coinspect/learn-evm-attacks/blob/master/test/Reentrancy/ReadOnlyReentrancy/ReadOnlyReentrancy.attack.sol
+
+// 
+// https://twitter.com/peckshield/status/1616400727064350720
+
+// Vectorized Solady
+// https://github.com/Vectorized/solady/blob/main/test/utils/TestPlus.sol
+
+// Foundry Best Practices
+// https://book.getfoundry.sh/tutorials/best-practices
+
+// Trail of bits
+// https://www.youtube.com/playlist?list=PLciHOL_J7Iwqdja9UH4ZzE8dP1IxtsBXI
+
+// Maple Core.
+// https://github.com/maple-labs/maple-core-v2/tree/main/tests/invariants
+
+// Fuzz Testing
+// https://book.getfoundry.sh/forge/fuzz-testing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
